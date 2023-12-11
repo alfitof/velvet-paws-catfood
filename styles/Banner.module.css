@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.textBanner {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+
+.miniText {
+  width: 70%;
+  color: var(--gray);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+}
+
+.rightSide {
+  position: relative;
+}
+
+.imageContainer {
+  width: 38rem;
+  position: absolute;
+  /* top: -4rem; */
+  /* left: 0rem; */
+}
+
+.contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 5rem;
+  top: 0rem;
+  left: 5rem;
+  gap: 0.6rem;
+  background-color: white;
+  box-shadow: var(--shadow);
+  color: var(--themeRed);
+  /* font-size: 12px; */
+  height: 3.5rem;
+  /* border: 4.5px solid rgb(100, 3, 63); */
+}
+
+.contactUs > div {
+  background: rgb(59, 208, 59);
+  border-radius: 50%;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+
+.contactUs:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
