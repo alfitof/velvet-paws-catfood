@@ -41,6 +41,9 @@ export default function Cart() {
         ></link>
       </Head>
       <div className="grid grid-cols-1 mt-18 p-8 text-xs gap-0 lg:grid-cols-3 lg:text-base lg:gap-10 mt-16 lg:mt-28">
+        <h2 className="font-bold text-4xl text-base-sub-title text-center mb-6 mt-12 lg:hidden">
+          Our Product
+        </h2>
         <div className={css.detail}>
           {cartItems.length === 0 ? (
             <p className="text-center font-bold text-lg ">Your cart is empty</p>

@@ -26,7 +26,7 @@ const Nav = () => {
             : " pt-4 bg-transparent")
         }
       >
-        <nav className="max-w-screen-xl mx-auto grid grid-flow-col py-5 px-5 lg:px-0">
+        <nav className="max-w-screen-xl mx-auto grid grid-flow-col py-5 px-5">
           <Link href="/">
             <div className={css.logo}>
               <Image src={Logo} alt="Logo" width={55} height={55} />
@@ -124,11 +124,11 @@ const Nav = () => {
                 Home
               </div>
             </Link>
-            <Link activeClassName="active" href="/menupage">
+            <Link activeClassName="active" href="/menu">
               <div
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                  (router.pathname == "/menupage"
+                  (router.pathname == "/menu"
                     ? "  border-orange-500 text-orange-500"
                     : " border-transparent ")
                 }

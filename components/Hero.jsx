@@ -10,7 +10,7 @@ export default function Hero() {
       className="grid grid-cols-1 place-items-center gap-0 lg:grid-cols-2 lg:gap-10 mt-16 lg:mt-20"
       id="home"
     >
-      <div className="mb-16 text-center lg:mb-0 mt-0 lg:mt-8 lg:text-left lg:pl-20">
+      <div className="mb-16 text-center lg:mb-0 mt-8 lg:text-left lg:pl-20">
         <h1 className=" font-bold" id="banner">
           Goyangkan Ekor Bahagia Kucing Anda dengan{" "}
           <span style={{ color: "var(--themeRed)" }}>Velvet Paws Delight!</span>
