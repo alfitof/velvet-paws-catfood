@@ -21,16 +21,14 @@ const Nav = () => {
       <header
         className={
           "fixed top-0 w-full  z-30  transition-all " +
-          (scrollActive
-            ? " shadow-md pt-0 bg-[#ffeee3]"
-            : " pt-4 bg-transparent")
+          (scrollActive ? " shadow-md pt-0 bg-white" : " pt-4 bg-transparent")
         }
       >
-        <nav className="max-w-screen-xl mx-auto grid grid-flow-col py-5 px-5">
+        <nav className="max-w-screen-xl mx-auto grid grid-flow-col py-4 px-5">
           <Link href="/">
             <div className={css.logo}>
               <Image src={Logo} alt="Logo" width={55} height={55} />
-              <span>Velvet Paws Delight</span>
+              <span>Velvet Paws</span>
             </div>
           </Link>
           <ul className="hidden lg:flex col-start-3 col-end-8 text-black-500  items-center justify-center">

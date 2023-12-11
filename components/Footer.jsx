@@ -1,7 +1,7 @@
 import css from "../styles/Footer.module.css";
 import { UilInstagram, UilWhatsapp } from "@iconscout/react-unicons";
 import Image from "next/image";
-// import Logo from "../assets/Logo.png";
+import Logo from "../assets/kucing 2.png";
 
 export default function Footer() {
   return (
@@ -12,8 +12,8 @@ export default function Footer() {
         <UilWhatsapp size={45} />
       </div>
       <div className={css.logo}>
-        {/* <Image src={Logo} alt="Logo" width={50} height={50} /> */}
-        <span>Velvet Paws Delight</span>
+        <Image src={Logo} alt="Logo" width={50} height={50} />
+        <span>Velvet Paws</span>
       </div>
     </div>
   );
