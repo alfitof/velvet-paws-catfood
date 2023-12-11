@@ -5,7 +5,7 @@ import Image from "next/image";
 import Logo from "../assets/kucing 2.png";
 import css from "../styles/Header.module.css";
 import { useRouter } from "next/router";
-import useCartStore from "@/store/cartStore";
+import useCartStore from "../store/cartStore";
 
 const Nav = () => {
   const cartItems = useCartStore((state) => state.cartItems);
