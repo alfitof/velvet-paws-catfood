@@ -64,7 +64,8 @@
 
 .button > * {
   font-size: 0.8rem;
-  padding: 0.8rem;
+  font-weight: bold;
+  /* padding: 0rem; */
 }
 
 .button > :nth-child(1) {

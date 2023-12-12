@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import CardMenu from "../components/CardMenu";
 import { useState, useEffect } from "react";
 
-export default function Menu() {
+export default function Product() {
   const [catFoods, setCatFoods] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState(null);

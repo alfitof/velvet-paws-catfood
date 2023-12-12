@@ -93,7 +93,7 @@ export default function CardItem({ food, loading }) {
           </div>
         </div>
       ) : (
-        <div className="bg-orange-500 w-[18rem] bg-opacity-10 backdrop-filter backdrop-blur-[2.8px] rounded-md mt-20 rounded-tr-3xl rounded-bl-3xl relative flex flex-col gap-7 items-center p-5">
+        <div className="bg-orange-500 w-full bg-opacity-10 backdrop-filter backdrop-blur-[2.8px] rounded-md mt-20 rounded-tr-3xl rounded-bl-3xl relative flex flex-col gap-7 items-center p-5">
           <div className="group transition-transform duration-300 transform hover:scale-105">
             <Image
               src={food.image}
@@ -105,7 +105,7 @@ export default function CardItem({ food, loading }) {
             />
           </div>
           <div className="flex flex-col gap-2 flex-1">
-            <h3 className="text-center font-bold text-xl text-base-sub-title">
+            <h3 className="text-center font-bold text-lg text-base-sub-title">
               {food.name}
             </h3>
             <p className="text-center font-normal text-base text-base-label">

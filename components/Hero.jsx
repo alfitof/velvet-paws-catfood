@@ -20,7 +20,7 @@ export default function Hero() {
           Berikan kucing Anda perlakuan istimewa dengan hidangan lezat yang
           memenuhi kebutuhan gizi mereka.
         </p>
-        <Link href="/menu">
+        <Link href="/product">
           <button className={`btn ${css.btn}`}>AYO ORDER!</button>
         </Link>
       </div>
